@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>
+</title>
+<link rel= "stylesheet" href= "assisment.css" ></link>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML =     minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</head>
+<body>
+<div class="abc">
+<h2 style="margin-left:50px; padding-top:18px;"> Logo1</h2>
+<h2 style="margin-top:-50px; margin-left:90%;"> Logo2</h2>
+</div>
+<div class="fan">
+<div class="def">
+<div class="num">
+<div class="numberCircle" style="background-color:orange;color:white;">1</div>
+<div class="numberCircle" style="background-color:pink;color:white;">2</div>
+<div class="numberCircle"style="background-color:green;color:white;">3</div>
+<div class="numberCircle"style="background-color:red;color:white;">4</div>
+<div class="numberCircle"style="background-color:blue;color:white;">5</div>
+<div class="numberCircle">6</div>
+<div class="numberCircle">7</div>
+
+</div>
+<div style="float:right;margin-top:25px;">
+
+<input type="submit" value="Question Palette" style="margin-right:33px; margin-top:-20px; background-color:white; width:230px; height:45px;"> 
+</div>
+</div>
+
+<div class="web" id="demo">
+</div>
+
+</div>
+<div class="net">
+<h2>Question: 3/9</h2> 
+<h2 style="margin-left:94%;margin-top:-40"> - </h2>
+<h2 style="margin-left:97%; margin-top:-46px;"> X </h2>
+
+<div class="man">
+<p style="padding-top:45px;margin-left:26px;"> Now this is a pragraph based question for a text to check that if this paragraph is displayed property too the user is a different dirty or not I hope this works fine . Apart from that it will also be  tested that this question in the DB completely or not as this is a long text.</p>
+		<ul> 
+		    <li> point1 </li>
+		   <li>  point2 </li>
+		   <li> point3 </li>
+		   <li> point4 </li>
+		</ul>
+</div>
+
+<div class="mug">
+
+<p style="padding-top:38px;margin-left:32px;"> This is a pragraph based Question 4 for verbel 2BCA x<sup>20</sup>+x<sup>25+x</sup></p>
+<span>
+         <input type="radio" name="gender" value="male"style="margin-left:50px;">option A<br>
+		 <input type="radio" name="gender" value="female" style="margin-left:50px;">option B<br>
+		 <input type="radio" name="gender" value="other" style="margin-left:50px;">option C<br>
+		 <input type="radio" name="gender" value="other" style="margin-left:50px;">option D<br>
+	  </span>
+</div>
+</div>
+<input type="submit" value="clear" style="margin-top:-60px;width:100px;height:40px;margin-left:500px;background-color:#2196f3;color:white;">
+
+<div class="table">
+<input type="submit" value="Previous" style="margin-top:27px;width:100px;height:40px;margin-left:190px;background-color:#2196f3;color:white;">
+<img src="C:\Users\user\Downloads\green_globe_left_arrow_617123.jpg" style="width:13px; height:12px;margin-left:-98px;">
+<input type="submit" value="Next" style="margin-top:27px;width:100px;height:40px;margin-left:550px;background-color:#2196f3;color:white;">
+<img src="C:\Users\user\Downloads\voice.jpg" style="width:13px; height:12px;margin-left:-32px;">
+<input type="submit" value="submit" style="margin-top:27px;width:100px;height:40px;margin-left:450px;background-color:green; color:white;"> 
+</div>
+
+
+</body>
+</html>
